@@ -28,7 +28,7 @@ mvn spring-boot:run
 
 **Send your request for endpoint with**
 Ex:
-ˋˋˋ
+```
 {
   "age": 20,
   "cpf": "123.654.789-00",
@@ -36,6 +36,6 @@ Ex:
   "income": 7000.00,
   "location": "SP"
 }
-ˋˋˋ
+```
 > [!IMPORTANT]
 > All fields must be passed
