@@ -22,14 +22,18 @@ mvn spring-boot:run
 
 ## API
 
-**Method [POST]**
+**Method [POST]** 
+
 **Endopoint**
+
 `{{host}}/costumer-loans/`
 
 ## Tutorial
 
 **Send your request for endpoint with**
+
 Ex:
+
 ```
 {
   "age": 20,
