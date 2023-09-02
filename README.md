@@ -1,26 +1,31 @@
 # Loan
 
-## {c:orange}Requirements{c/}
+## Requirements
+
 [JDK 17](https://www.oracle.com/br/java/technologies/downloads/)
 [Maven](https://maven.apache.org/download.cgi)
 
-## {c:orange}Challeng{c/}
+## Challenge
+
 [Challenge](https://github.com/backend-br/desafios/blob/master/loans/PROBLEM.md)
 
-## {c:orange}Run{c/}
-ˋˋˋ
+## Run
+
+```
 git clone https://github.com/ze-fernando/loanSystem-Spring
 
 cd loanSystem-Spring
 
 mvn spring-boot:run
-ˋˋˋ
+```
 
-## {c:orange}API{c/}
+## API
+
 **Method {c:green}[POST]{/c}**
 **Endopoint {{host}}/costumer-loans/**
 
-## {c:orange}Tutorial{c/}
+## Tutorial
+
 **Send your request for endpoint with**
 Ex:
 ˋˋˋ
@@ -32,4 +37,5 @@ Ex:
   "location": "SP"
 }
 ˋˋˋ
-!All fields must be passed
+> [!IMPORTANT]
+> All fields must be passed
