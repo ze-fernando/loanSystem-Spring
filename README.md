@@ -24,7 +24,7 @@ mvn spring-boot:run
 
 **Method [POST]** 
 
-**Endopoint**
+**Endpoint**
 
 `{{host}}/costumer-loans/`
 
