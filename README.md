@@ -39,5 +39,18 @@ Ex:
   "location": "SP"
 }
 ```
+
+## Rules
+**Loan**
+* for salaries between 3,000 and 5,000, age under 30 and location in SP, secured and personal loan
+* for salaries equal to or greater than 5 thousand, consigned loan
+* for wages below 3,000, secured and personal loan
+
+**Rnterest rate**
+* for Peronal, 4%
+* for Secured, 3%
+* for Consigned, 2%
+
+
 > [!IMPORTANT]
 > All fields must be passed
