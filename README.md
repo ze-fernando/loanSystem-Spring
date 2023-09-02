@@ -21,7 +21,7 @@ mvn spring-boot:run
 
 ## API
 
-**Method {c:green}[POST]{/c}**
+**Method [POST]**
 **Endopoint {{host}}/costumer-loans/**
 
 ## Tutorial
