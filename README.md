@@ -1,8 +1,9 @@
-# Loan
+# Loan's
 
 ## Requirements
 
 [JDK 17](https://www.oracle.com/br/java/technologies/downloads/)
+
 [Maven](https://maven.apache.org/download.cgi)
 
 ## Challenge
