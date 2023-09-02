@@ -22,7 +22,8 @@ mvn spring-boot:run
 ## API
 
 **Method [POST]**
-**Endopoint {{host}}/costumer-loans/**
+**Endopoint**
+`{{host}}/costumer-loans/`
 
 ## Tutorial
 
