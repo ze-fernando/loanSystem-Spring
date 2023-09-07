@@ -14,6 +14,8 @@ import com.loan_api.loanapi.entity.Loan;
 import com.loan_api.loanapi.entity.Response;
 import com.loan_api.loanapi.service.LoanService;
 
+import jakarta.validation.Valid;
+
 
 @RestController
 @Controller
@@ -21,7 +23,7 @@ public class LoanController {
  
 
     @PostMapping("/customer-loans")
-    public Response customer(@RequestBody Costumer c){
+    public Response customer(@RequestBody @Valid Costumer c){
 
         boolean valid = c.getLocation().toUpperCase().equals("SP") &&
             c.getAge() < 30 &&

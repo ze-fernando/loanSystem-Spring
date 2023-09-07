@@ -35,11 +35,17 @@ class LoanApiApplicationTests {
 		.jsonPath("$.loans[2].interest_rate").isEqualTo(3);
 	}
 
-	/*
-	 * @Test
-	void sendCostumerFailure() {
 	
+	@Test
+	void sendCostumerFailure() {
+		
+		webTestClient.post()
+		.uri("/customer-loans")
+		.bodyValue(new Costumer(null, "", "", null, ""))
+		.exchange()
+		.expectStatus()
+		.isBadRequest();
 	}
-	*/
+
 
 }
