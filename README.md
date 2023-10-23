@@ -34,7 +34,7 @@ mvn spring-boot:run
 
 Ex:
 
-```
+```yaml
 {
   "age": 20,
   "cpf": "123.654.789-00",
